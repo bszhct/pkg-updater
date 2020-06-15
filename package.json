@@ -1,6 +1,6 @@
 {
-  "name": "pkg-updater",
-  "version": "1.0.4",
+  "name": "@bszhct/pkg-updater",
+  "version": "1.0.5",
   "description": "A simple updater which use in your cli tool.",
   "main": "lib/index.js",
   "scripts": {
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KohPoll/pkg-updater"
+    "url": "git@github.com:bszhct/pkg-updater.git"
   },
-  "author": "kohpoll",
+  "author": "kohpoll,bszhct",
   "license": "ISC",
   "devDependencies": {
     "fixture-stdout": "^0.2.1",
@@ -31,5 +31,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }

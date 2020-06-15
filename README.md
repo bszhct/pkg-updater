@@ -1,4 +1,6 @@
 # pkg-updater
+**This version solves the problem of automatic update failure.**
+
 This package is suitable for update checking of cli tools. It will check the version in background process, and notify the users when update is available.
 
 ## Usage
